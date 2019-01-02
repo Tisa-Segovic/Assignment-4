@@ -1,0 +1,170 @@
+/* asg2part1.css */
+
+a:link {
+	color: grey;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#wrap {
+    background-color: #faf0e6;
+    width: 800px;
+    border: 5px solid #D2691E;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+body {
+	font-family: Georgia;
+	background-image: url("https://cdn.hipwallpaper.com/i/91/99/tNhY8K.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.container {
+ width: 1000px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.coolFont{
+	width: 900px; 
+	height: 90px;
+	font-size: 19px; 
+	text-shadow: 2px 2px #FFDAB9;
+}
+
+.mainsubtitle{
+	font-size: 17px;
+  	text-align: center;
+	left-margin: 20px; 
+	right-margin: 10px;
+}
+
+.sections{
+	color: #D2691E;
+	font-family: Georgia; 
+	font-size:16px; 
+	text-align: center;
+	left-margin: 20px; 
+	right-margin: 10px;
+}
+
+.quote{
+	color: #D2691E;
+	font-family: Georgia; 
+	font-size:21px; 
+  	text-align: center;
+	left-margin: 20px; 
+	right-margin: 10px;
+}
+
+.startImage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.wrapper1{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.button{
+	background-color: #808000;
+    border: none;
+    color: back;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.features{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 1px solid #021a40;
+}
+
+.fileMainTwo{
+	width: 900px; 
+	height: 90px;
+	font-size: 19px;
+	text-align: center;
+}
+
+.heading3{
+	font-family: Courier;
+	font-size: 19px;
+	color: #999900; 
+}
+
+.section3{
+	font-family: Courier;
+	font-size: 17px;
+  	text-align: center;
+  	color: #333300;
+}
+
+.imgschanel{
+	border-radius: 25px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url("http://caraalwill.com/wp-content/uploads/2016/08/IMG_5355.jpg") repeat-x;
+  height: 460px;
+  width: 4076px;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+.mySlides {
+	display:none;
+}
+
+.presentationimgs{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+    border: 1px solid #021a40;
+}
+
+
+

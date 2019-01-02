@@ -1,0 +1,130 @@
+/* style.css */
+
+a:link {
+	color: grey;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+body {
+	font-family: Lucida Console;
+	font-size: 17px;
+	color: #8B4513;
+	background-image: url("https://i.pinimg.com/736x/6d/34/4b/6d344b541758c4743c48de6e9f534d69--tweed-suits-womens-suits.jpg");
+	opacity: 0.8;
+}
+
+div.container {
+	width: 1000px;
+	height: 1600px;
+}
+
+#highlight {
+	width:700px;
+    display:flex;
+    align-items:left; 
+}
+
+#container ol {
+    min-width:16.25em;
+    padding:1em 1em 1em 3.5em;
+    border: 0.1em solid #999;
+    box-sizing:border-box; 
+}
+
+#image-container {
+    min-width:16.25em;
+}   
+
+#image-container img {
+    display:block;
+    height:auto;    
+}
+
+@media screen and (max-width:35em) {
+	#highlight {
+	    display:block;
+	 }
+}
+
+.button1{
+	background-color: #8B4513;
+	border-radius: 50%;
+    border: 0.1;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+.button11{
+	background-color: #d4691d;
+	border-radius: 50%;
+    border: 0.1;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+div.animate{
+	background-color: #ecdcc6;
+	border: 5px solid #F0E68C;
+	width: 550px;
+	height: 800px;
+	margin-left: auto;
+    margin-right: auto;
+    position: absolete;
+}
+
+.animateButton{
+	background-color: #572b0c;
+	border-radius: 12px;
+    border: 0.1;
+    color: white;
+    padding: 4px 4px;
+    text-decoration: none;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+.button2{
+	background-color: #F0E68C;
+    border: 0.5;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#wrap {
+    width: 650px;
+    border: 5px solid #F0E68C;
+    text-align: auto;
+    allign: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

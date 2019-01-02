@@ -1,0 +1,25 @@
+Create an HTML, CSS and a Javascript program(s):
+
+You can create several HTML pages or one page, but make sure you provide all of the requiremnts needed for the following:
+
+Create an application that allows the user to change image properties when you click on the image (Change at least 4 properties).
+ 
+
+2) Create an application that displays a random image every time you load the page.
+
+3) Create an application that displays a slideshow with a start and stops buttons.
+
+4) Create a converter application that allows you to convert an amount from a USD to Euro. Use a form input field, onchange event, and a .js  to convert and display the result inside an element with id=result.
+
+5) Create an application allowing you to display and validate input from user similar to Icecream shop we did in class. Use all types of fields such as 4 input fields for name, phone, email, zip code, selection, checkbox, radio and submit and reset fields.
+
+You should make sure to validate all of the form elements:  Make sure tp for the following:
+
+Check if the fields are empty or null;
+Validate the zip code (5 digits of length and must be a number); and
+Make sure that the email includes an at-sign (“@“) and a dot (“.“);
+If the validation fails, alert the user and ask it to enter valid information, also use focus()select().
+
+Extra credit will be awarded for excellent and creative work! Consider validating the email using regular expressions and adding additional design and technical features.
+
+Tip: Review the JavaScript form validation using onsubmit()and classonchange() examples on the course website.
